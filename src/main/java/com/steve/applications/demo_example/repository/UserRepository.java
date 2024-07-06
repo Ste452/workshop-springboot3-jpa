@@ -6,5 +6,4 @@ import com.steve.applications.demo_example.entities.User;
 
 public interface UserRepository extends JpaRepository<User, Long> {
 	
-	
 }

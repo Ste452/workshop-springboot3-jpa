@@ -1,4 +1,4 @@
-package com.steve.applications.demo_example.entities;
+package com.steve.applications.resources;
 
 import java.util.List;
 
@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.steve.applications.demo_example.entities.User;
 import com.steve.applications.services.UserService;
 
 @RestController
